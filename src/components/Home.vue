@@ -24,7 +24,7 @@
           router
           :default-active="activePath"
         >
-          >
+
           <!-- 一级菜单模板 -->
           <el-submenu
             :index="item.id + ''"
