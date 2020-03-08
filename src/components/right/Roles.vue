@@ -227,9 +227,9 @@ export default {
         const { data: res } = await this.$http.post('roles', this.addRole)
         console.log(res)
         if (res.meta.status !== 201) {
-          this.$message.error('添加错误')
+          this.$message.error('添加错误!')
         }
-        this.$message.success('添加成功')
+        this.$message.success('添加成功!')
         this.addRoleVisible = false
         this.getRolesList()
       })
