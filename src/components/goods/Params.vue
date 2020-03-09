@@ -395,7 +395,6 @@ export default {
       })
     },
     async handleInputConfirm(row) {
-      console.log(1)
       if (row.inputValue.trim().length === 0) {
         row.inputValue = ''
         row.inputVisible = false
