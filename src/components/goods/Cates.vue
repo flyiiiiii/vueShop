@@ -289,17 +289,6 @@ export default {
     //     this.addCateForm.cat_level = 0
     //   }
     // },
-    // parentCateEditChanged() {
-    //   if (this.selectedEditKeys.length > 0) {
-    //     this.editCateForm.cat_pid = this.selectedEditKeys[
-    //       this.selectedEditKeys.length - 1
-    //     ]
-    //     this.editCateForm.cat_level = this.selectedEditKeys.length
-    //   } else {
-    //     this.editCateForm.cat_pid = 0
-    //     this.editCateForm.cat_level = 0
-    //   }
-    // },
     addCate() {
       this.$refs.addCateFormRef.validate(async valid => {
         if (!valid) return 0
