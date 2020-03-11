@@ -3,7 +3,7 @@
     <!-- 头部区域 -->
     <el-header>
       <div>
-        <img src="../assets/heima.png" alt="" />
+        <img id="lemon" src="../assets/lemon.png" alt="" />
         <span>电商后台管理系统</span>
       </div>
       <el-button type="info" @click="logout">退出</el-button>
@@ -150,5 +150,11 @@ export default {
   text-align: center;
   letter-spacing: 0.2em;
   cursor: pointer;
+}
+
+#lemon{
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
 }
 </style>
