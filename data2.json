@@ -1,0 +1,109 @@
+{
+type: "force",
+categories: [
+{
+name: "WebGL",
+keyword: { },
+base: "WebGLRenderingContext"
+}
+],
+nodes: [	
+{
+name: "WebGLRenderingContext",
+value: 3,
+category: 1
+},
+{
+name: "WebGLProgram",
+value: 1,
+category: 1
+},
+{
+name: "WebGLBuffer",
+value: 1,
+category: 1
+},
+{
+name: "WebGLFramebuffer",
+value: 1,
+category: 1
+},
+{
+name: "WebGLRenderbuffer",
+value: 1,
+category: 1
+},
+{
+name: "WebGLTexture",
+value: 1,
+category: 1
+},
+{
+name: "WebGLShader",
+value: 1,
+category: 1
+},
+{
+name: "WebGLActiveInfo",
+value: 1,
+category: 1
+},
+{
+name: "WebGLContextAttributes",
+value: 1,
+category: 1
+},
+{
+name: "WebGLShaderPrecisionFormat",
+value: 1,
+category: 1
+},
+{
+name: "WebGLUniformLocation",
+value: 1,
+category: 1
+}
+],
+link:[
+	{
+source: 0,
+target: 1
+},
+{
+source: 0,
+target: 2
+},
+{
+source: 0,
+target: 3
+},
+{
+source: 0,
+target: 4
+},
+{
+source: 0,
+target: 5
+},
+{
+source: 0,
+target: 6
+},
+{
+source: 0,
+target: 7
+},
+{
+source: 0,
+target: 8
+},
+{
+source: 0,
+target: 9
+},
+{
+source: 0,
+target: 10
+}
+]
+}
